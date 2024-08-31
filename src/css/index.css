@@ -12,7 +12,7 @@ body {
 nav {
   height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /*distributes the logo and names evenly */
   align-items: center;
   background-color: #81d8d0; /* Adjust background color as needed */
 }
@@ -34,64 +34,64 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
   font-size: 16px;
+  font-weight: 800;
   padding: 1rem;
   border-radius: 0.375rem;
   /* Adjust font and color as needed */
 }
 
 .nav-links a:hover {
-  background-color: #f2f2f2; /* Change the background color on hover */
+  background-color: #9ee0d8; /* Change the background color on hover */
   color: #000; /* Change the text color on hover */
 }
 
-#wording-section,
-#hero-image {
-  border-style: solid;
-  border-width: 1px;
-  width: 45%;
-  height: 100%;
-}
-
-/* Hero  div */
 .hero {
-  height: 80vh;
-  width: 100vw;
-  border-style: solid;
-  border-width: 1px;
-  border-color: red;
+  height: 80vh; /* Adjust height as needed */
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  background-color: #81d8d0; /* Adjust background color as needed */
 }
 
-/* Hero text section */
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.hero-content {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
 }
 
-/* Subtexts */
-.subtext1,
-.subtext2 {
-  height: 30%;
-  padding: 1rem;
+.hero-content h1 {
+  font-size: 60px; /* Adjust font size as needed */
+  /* line-height: 1.5; */
 }
 
-.cta {
-  height: 20px;
+.hero-content p {
+  font-size: 18px; /* Adjust font size as needed */
+  margin-top: 20px;
 }
 
-.welcome-text {
-  font-size: 4rem;
-}
-
-.welcome-paragraph {
-  font-size: 20px;
-}
-
-.brand-name {
-  font-family: cursive;
+.start-now-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #9ee0d8;
   color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.start-now-btn:hover {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+  background-image: url("your-hero-image.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
 }
