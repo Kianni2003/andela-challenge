@@ -21,11 +21,13 @@ nav {
   /* Styles for your logo image */
   color: #000;
   margin-left: 1rem;
+  font-family:"Dancing Script" ;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
+  font-family:"Dosis";
 }
 
 .nav-links li {
@@ -58,16 +60,22 @@ nav {
   flex: 1;
   padding: 40px;
   text-align: center;
+  font-family: "Montserrat";
 }
 
 .hero-content h1 {
-  font-size: 60px; /* Adjust font size as needed */
+  font-size: 50px; /* Adjust font size as needed */
   /* line-height: 1.5; */
 }
 
 .hero-content p {
-  font-size: 18px; /* Adjust font size as needed */
+  font-size: 20px; /* Adjust font size as needed */
   margin-top: 20px;
+font-family:"Sevillana";
+}
+
+.brand-name{
+  font-family:"Dancing Script";
 }
 
 .start-now-btn {
@@ -75,7 +83,8 @@ nav {
   padding: 15px 30px;
   background-color: #9ee0d8;
   color: #000;
-  font-size: 18px;
+  font-size: 15px;
+  font-family:"Unbounded";
   font-weight: bold;
   text-decoration: none;
   border: none;
